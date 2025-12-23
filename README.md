@@ -78,6 +78,7 @@ movielastry/
 │   ├── vite.config.js
 │   └── README.md
 
+
 ##### Installation & Setup
 1. Clone the repositpory
 git clone https://github.com/poratrait/movielasttry.git
@@ -95,6 +96,7 @@ npm run dev
 
 ######Configuration Options
 This project is set up using Vite and Tailwind CSS, with configurations managed through vite.config.js and tailwind.config.js and the project uses environment varibles for API integration(e.g,TMDB API Key) via a .env file.
+
 
 
 
