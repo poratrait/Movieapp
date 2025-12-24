@@ -23,60 +23,60 @@ and similar movies.
 - Routing: React Router DOM
 
 #### Project Structure
-``movielastry/
-│
-├── my-project/
-│   ├── node_modules/
-│   ├── public/
-│   │   └── index.html
-│   │
-│   ├── src/
-│   │   ├── api/
-│   │   │   └── tmdbApi.js
-│   │   │
-│   │   ├── assets/
-│   │   │   └── react.svg
-│   │   │
-│   │   ├── components/
-│   │   │   ├── CategoryBar.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── GenreFilter.jsx
-│   │   │   ├── Header.jsx
-│   │   │   ├── Loader.jsx
-│   │   │   ├── MovieCard.jsx
-│   │   │   ├── MovieList.jsx
-│   │   │   ├── SearchBar.jsx
-│   │   │   └── SortDropdown.jsx
-│   │   │
-│   │   ├── constants/
-│   │   │   ├── categories.js
-│   │   │   └── sortOptions.js
-│   │   │
-│   │   ├── context/
-│   │   │   ├── MovieContext.jsx
-│   │   │   └── ThemeContext.jsx
-│   │   │
-│   │   ├── hooks/
-│   │   │   └── useFetchMovie.jsx
-│   │   │
-│   │   ├── pages/
-│   │   │   ├── Home.jsx
-│   │   │   ├── MovieDetails.jsx
-│   │   │   └── SearchResults.jsx
-│   │   │
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   ├── index.css
-│   │   └── index.html
-│   │
-│   ├── .env
-│   ├── .gitignore
-│   ├── eslint.config.js
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── tailwind.config.js
-│   ├── vite.config.js
-│   └── README.md  ``
+```movielastry/
+  │
+  ├── my-project/
+  │   ├── node_modules/
+  │   ├── public/
+  │   │   └── index.html
+  │   │
+  │   ├── src/
+  │   │   ├── api/
+  │   │   │   └── tmdbApi.js
+  │   │   │
+  │   │   ├── assets/
+  │   │   │   └── react.svg
+  │   │   │
+  │   │   ├── components/
+  │   │   │   ├── CategoryBar.jsx
+  │   │   │   ├── Footer.jsx
+  │   │   │   ├── GenreFilter.jsx
+  │   │   │   ├── Header.jsx
+  │   │   │   ├── Loader.jsx
+  │   │   │   ├── MovieCard.jsx
+  │   │   │   ├── MovieList.jsx
+  │   │   │   ├── SearchBar.jsx
+  │   │   │   └── SortDropdown.jsx
+  │   │   │
+  │   │   ├── constants/
+  │   │   │   ├── categories.js
+  │   │   │   └── sortOptions.js
+  │   │   │
+  │   │   ├── context/
+  │   │   │   ├── MovieContext.jsx
+  │   │   │   └── ThemeContext.jsx
+  │   │   │
+  │   │   ├── hooks/
+  │   │   │   └── useFetchMovie.jsx
+  │   │   │
+  │   │   ├── pages/
+  │   │   │   ├── Home.jsx
+  │   │   │   ├── MovieDetails.jsx
+  │   │   │   └── SearchResults.jsx
+  │   │   │
+  │   │   ├── App.jsx
+  │   │   ├── main.jsx
+  │   │   ├── index.css
+  │   │   └── index.html
+  │   │
+  │   ├── .env
+  │   ├── .gitignore
+  │   ├── eslint.config.js
+  │   ├── package.json
+  │   ├── package-lock.json
+  │   ├── tailwind.config.js
+  │   ├── vite.config.js
+  │   └── README.md ```
 
 
 ##### Installation & Setup
@@ -96,6 +96,7 @@ npm run dev
 
 ######Configuration Options
 This project is set up using Vite and Tailwind CSS, with configurations managed through vite.config.js and tailwind.config.js and the project uses environment varibles for API integration(e.g,TMDB API Key) via a .env file.
+
 
 
 
