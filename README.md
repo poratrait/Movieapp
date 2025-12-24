@@ -23,7 +23,8 @@ and similar movies.
 - Routing: React Router DOM
 
 #### Project Structure
-```movielastry/
+```
+  movielastry/
   │
   ├── my-project/
   │   ├── node_modules/
@@ -96,6 +97,7 @@ npm run dev
 
 ######Configuration Options
 This project is set up using Vite and Tailwind CSS, with configurations managed through vite.config.js and tailwind.config.js and the project uses environment varibles for API integration(e.g,TMDB API Key) via a .env file.
+
 
 
 
